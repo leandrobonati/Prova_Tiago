@@ -1,0 +1,101 @@
+fieldset {
+    padding: 1%;
+    border-radius: 10px;
+    background: #eee;
+    border:1px solid #ddd;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .1);
+    margin-top: 2%;
+}
+
+legend
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #eee;
+    padding: .5%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+label, input, select {
+    display: block; box-sizing: border-box;
+}
+
+label {
+    padding: 5px;
+}
+
+input,select {
+    background: rgb(170, 221, 250); border:1px solid rgb(111, 202, 255);outline: none;
+}
+
+input:focus {
+    background: rgb(170, 221, 250);border: 1px solid rgb(111, 202, 255);outline: none;
+}
+
+.label-50
+{
+    width:50%;float: left;
+}
+
+.center
+{
+    text-align: center; padding: 2%;
+}
+
+button
+{
+    padding:10px;
+    cursor: pointer;
+    font-size: 16px;
+    background: #eee;
+    border: 1px solid #666;
+    left: 40px;
+}
+
+button:hover {background-color:#ddd;}
+button:active {background-color: #666;}
+
+* { margin: 0; padding: 0;}
+
+body {
+    background: grey; padding: 5%; font-family: "trebuchet MS";
+}
+
+#corpo {
+    background: rgb(243, 243, 243);
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(218, 218, 218, 0.3);
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ccc;
+    padding: 2%;
+    border-bottom:#eee
+}
+
+header h1 {
+   text-align: center;
+   text-shadow: 1px 1px 2px #fff;
+   text-transform: uppercase
+}
+
+main {
+    padding: 2%;
+}
+
+footer {
+    background: #ccc;
+    text-align: center;
+    padding: 2%;
+    border-top: 1px solid#999;
+}
+
+ img {width: 100px;
+}
